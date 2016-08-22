@@ -3210,21 +3210,26 @@ a.ilink.yours {
 /* teambuilder */
 
 .dark .folderpane {
-	border-left-color: #77838c;
+	border-left-color: rgba(68, 68, 68, 0.73);
 }
 
 .dark .folderlist .foldersep:before,
 .dark .folderlistafter:before,
 .dark .folderlistbefore:before,
-.dark .folderpane h3,
 .dark .folder .selectFolder,
 .dark .folderhack1,
 .dark .folderhack2 {
-	background: #77838c;
+	 background: rgba(68, 68, 68, 0.73);
+         color: #f2f2f2;
+}
+
+.dark .folderpane h3,
+         color: #88b3f3;
+         text-shadow: 1px 1px 1px #000;
 }
 
 .dark .folder .selectFolder:hover {
-	background: #67737c;
+	background: rgba(115, 114, 114, 0.73);
 }
 .dark .folder .selectFolder.active,
 .dark .folder .selectFolder:active {
