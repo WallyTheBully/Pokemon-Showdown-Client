@@ -3381,6 +3381,11 @@ a.ilink.yours {
 
 /* teambuilder set */
 
+.dark .teambuilder-results .result a:hover {
+	border-color: #555555;
+	background: rgba(47, 47, 47, 0.8);
+}
+
 .dark .setmenu button,
 .dark .teamlist button,
 .dark .folder.cur .selectFolder,
@@ -3397,7 +3402,7 @@ a.ilink.yours {
 	color: #FFF;
 }
 .dark .utilichart .col {
-	color: #999;
+	color: #DDD;
 }
 .dark .utilichart .cur .col {
 	color: #FFF;
@@ -3407,7 +3412,7 @@ a.ilink.yours {
 .dark .utilichart a:hover .namecol,
 .dark .utilichart a:hover .pokemonnamecol,
 .dark .utilichart a:hover .movenamecol {
-	color: #555;
+	color: #DDD;
 }
 
 .dark .setchart,
