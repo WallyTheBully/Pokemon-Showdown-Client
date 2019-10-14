@@ -452,7 +452,7 @@ button:disabled {
 	padding: 3px 0 4px 0;
 }
 .tablist li {
-	margin: 0 -5px -1px -5px;
+	margin:  0 -1px;
 	padding: 0;
 }
 .tablist .button {
